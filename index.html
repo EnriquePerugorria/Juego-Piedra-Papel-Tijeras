@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" type="text/css" href="Estilos
+	.css">
+
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet"><!--Referencia a  la  fuente Open Sans de google-->
+
+	<title>Piedra, papel o tijeras</title>
+</head>
+<body>
+
+<section id="game-zone">
+	<figure>
+		<img id="playerChoice" src="images/rock.png" alt="Elección del Jugador">
+		<figcaption>Jugador</figcaption>
+
+    </figure>
+	<figure>
+		<img id="computerChoice" src="images/rock.png" alt="Elección de la Computadora">
+		<figcaption>Computadora</figcaption>
+     </figure>
+	
+	 </section>
+
+
+<p id="result">Tú EMPATAS escogiendo <strong>piedra</strong>  en contra de <strong>piedra</strong></p>
+
+
+<p id="score">Has ganado <strong>0</strong> veces,
+			  Has perdido <strong>0</strong> veces</p>
+
+
+<section>
+      
+      <p>Escoge una opción
+ 	</p>
+
+	<button data-choice='piedra'>
+	 	<img src="images/rock.png" alt="Juagar usando Piedra">
+ 	</button>
+	<button data-choice='papel'>
+		<img src="images/paper.png" alt="Juagar usando Papel">
+ 	</button>
+	<button data-choice='tijeras'>
+	<img src="images/scissors.png" alt="Juagar usando Tijeras">
+ 	</button>
+	
+  </section>
+
+
+	<script src="app.js">
+		
+			
+	</script>
+</body>
+</html>
